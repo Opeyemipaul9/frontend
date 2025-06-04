@@ -1,8 +1,7 @@
 import React from 'react'
 import './Popular.css'
 import  data_product from '../../ASSETS/data';
-import Items from '../ITEMS/Fitems'
-
+import Fitems from '../ITEMS/Fitems';
 
 
 
@@ -12,9 +11,9 @@ const Popular = () => {
         <h1> POPULAR IN WOMEN </h1>
         <hr />
         <div className="popular-item">
-            {data_product.map((item ,i )=>{
+            {data_product.map((item,i)=>{
                 return (
-                    <Items key={i} id={item.id} name = {item.name} image ={item.image} new_price={item.new_price} old_price ={item.old_price} />
+                    <Fitems key={i} id={item.id} name = {item.name} image ={item.image} new_price={item.new_price} old_price ={item.old_price} />
                 )
             })}
 
