@@ -1,8 +1,10 @@
 .loginsignup{
-    width:100px;
-    height:80vh;
+    width:100%;
+    align-items: center;;
+    height:150vh;
     background: #fce3fe;
     padding-top:100px;
+    margin-bottom:500px;
 }
 
 .loginsignup-container {
@@ -27,7 +29,7 @@
     margin-top:30px;
 }
 
-.loginsignup-firlds input {
+.loginsignup-fields input {
     height: 72px;
     width:100%;
     padding-left:20px;
